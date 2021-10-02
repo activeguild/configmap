@@ -6,6 +6,7 @@ https://kubernetes.io/ja/docs/reference/kubectl/cheatsheet/
 
 # command
 ```
+minikube start
 kubectl get configmap
 kubectl get configmap test-json -o json
 kubectl get pods -l app=nginx
